@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../assets/vendor/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/vendor/css/bootstrap.min.css">
+    <script src="../../assets/vendor/js/jquery.js"></script>
+    <script src="../../assets/vendor/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <script src="../../assets/js/cursos-tabla.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+    <title>Courses List</title>
+</head>
+
+<body style="font-family: 'Heebo', sans-serif;">
+
+    <!-- start NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="../../views/index.html"><i class="fas fa-university logo fa-2x"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="../../views/index.html">Contoso University <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="../../views/departamentos/department.html">Departments</a>
+                <a class="nav-item nav-link active" href="../../departamentos/coursesList.html">Courses</a>
+                <a class="nav-item nav-link" href="../departamentos/instructors.html">Instructors</a>
+                <i class="fas fa-user-circle user fa-2x"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- end NAV -->
+    <br>
+    <br>
+
+    <!-- form con el dropdown button y el search -->
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <p>Departments</p>
+                    <select id="course-select" onchange="" class="custom-select">
+                        <option selected>All</option>
+                        <option value="Arts">Arts</option>
+                        <option value="Maths">Maths</option>
+                        <option value="Languages">Languages</option>
+                    </select>
+                </div>
+                <div class="col-8">
+                    <p>Title</p>
+                    <input id="" class="form-control" type="text" placeholder="" aria-label="titleSearch">
+                </div>
+            </div>
+            <br>
+            <button id="searchButton" type="search" class="btn btn-secondary">Search</button>
+        </div>
+    </form>
+
+    <br>
+    <br>
+
+    <!-- start TABLE -->
+    <div class="container">
+        <div class="row">
+            <div class="col-11">
+                <table id="cursos-data" class="table table-bordered table-striped text-center table-responsive-sm">
+                </table>
+            </div>
+            <div class="col-1">
+                <a href="../departamentos/newCourse.html"> <i class="fas fa-plus-circle plus fa-2x"></i></a>
+            </div>
+        </div>
+        <!-- end TABLA -->
+
+        <!-- Footer -->
+        <div class="container">
+            <footer class="page-footer fixed-bottom font-small text-light">
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center">© 2019 Copyright
+                </div>
+                <!-- Copyright -->
+            </footer>
+        </div>
+
+</body>
+
+</html>

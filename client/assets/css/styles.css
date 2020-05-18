@@ -1,0 +1,44 @@
+body {
+
+  background: rgb(189,94,103);
+background: linear-gradient(90deg, rgba(189,94,103,0.7740138291644783) 0%, rgba(233,183,148,1) 100%);
+
+  /* background: radial-gradient(circle, rgba(189,94,103,1) 0%, rgba(233,183,148,1) 100%); */
+
+  }
+
+  .navbar {
+    background-color: #253237;
+    opacity: 0.7;
+  }
+
+/* ICONS */
+.goBack, .plus {    
+    color: #74414c; 
+}
+
+.goBack:hover, .plus:hover {
+      color: #4b3035;
+}
+
+.user, .logo  {
+  color: #74414c;
+}
+
+.btn {
+  background-color:#74414c;
+}
+  
+
+/* FOOTER */
+.page-footer {
+background-color: #7D6167;
+
+opacity: 0.4;
+}
+
+
+
+
+
+
